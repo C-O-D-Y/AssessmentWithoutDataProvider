@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 94.388 s <<< FAILURE! - in TestSuite
+checkGrandTotal(com.atmecs.ToolsninjaAutomation.testScripts.NinjaStoreTestScripts)  Time elapsed: 0.349 s  <<< FAILURE!
+java.lang.AssertionError: grandtotal is not correct expected [$3,852.40] but found [$2,773.60]
+	at com.atmecs.ToolsninjaAutomation.testScripts.NinjaStoreTestScripts.checkGrandTotal(NinjaStoreTestScripts.java:115)
+
+validateGrandTotalAfterRemovingItem(com.atmecs.ToolsninjaAutomation.testScripts.NinjaStoreTestScripts)  Time elapsed: 2.858 s  <<< FAILURE!
+java.lang.AssertionError: grandtotal is not correct expected [$3,606.00] but found [$2,404.00]
+	at com.atmecs.ToolsninjaAutomation.testScripts.NinjaStoreTestScripts.validateGrandTotalAfterRemovingItem(NinjaStoreTestScripts.java:122)
+
